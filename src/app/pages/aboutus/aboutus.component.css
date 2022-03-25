@@ -1,0 +1,14 @@
+.about-center{
+    margin:20px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #EFC7C2;
+    border-radius: 20px;
+    width:37%;
+    height:300px;
+}
+.about-us-title{
+    background: linear-gradient(to right, #d009f8, #36f507);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

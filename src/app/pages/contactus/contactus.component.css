@@ -1,0 +1,40 @@
+
+.con-central{
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 15px;
+    align-content: center;
+    margin-top:30px;
+    margin-right:30px;
+    padding:20px;
+    display: flex;
+    float: right;
+    width:40%;
+}
+.contact-middle{
+    margin:20px;
+    width:50%;
+    color:whitesmoke;
+    align-content: center;
+}
+.contact-right{
+    margin:30px;
+}
+#con-inputtext{
+    width:50%;
+    margin:10px;
+    padding:5px;
+}
+#con-message{
+    width:50%;
+    margin:10px;
+    padding:5px;
+    height:150px;   
+}
+#con-send{
+    margin:10px;
+}
+#con-help{
+    background-color:#BB8A89;
+    border-color:#BB8A89;
+}

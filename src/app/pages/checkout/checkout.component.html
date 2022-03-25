@@ -1,0 +1,70 @@
+<!-- bodysection -->
+
+<div class=order-summary>
+
+    <table class="table">
+        <tbody>
+            <th>
+            <h2>Order Summary</h2>
+            </th>
+            <tr>
+                <td>Subtotal(2 items)</td>
+                <td>$2,298.0</td>
+            </tr>
+            <tr>
+                <td>Delivery</td>
+                <td>$89.09</td>
+            </tr>
+            <tr>
+                <th>Discounts</th>
+                <td></td>
+            </tr>
+            <tr>
+                <td>EMAIL9753</td>
+                <td>$0.00</td>
+            </tr>
+            <tr>
+                <td>EMAIL2755</td>
+                <td>-$67.48</td>
+            </tr>
+            <tr>
+                <th>Protection Plan(s)</th>
+                <td></td>
+            </tr>
+            <tr>
+                <td><u>Furniture</u></td>
+                <td>$89.40</td>
+            </tr>
+            <tr>
+                <th>Taxes</th>
+                <td>$103.59</td>
+            </tr>
+
+            <tr>
+                <th>
+                    <h6><b>TOTAL</b></h6>
+                </th>
+                <td>$2,512.6</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+
+    <div style="background-color: chartreuse;" class="col" *ngFor="let it of Mycart; let i=index">
+        <h3>in cartlist</h3>
+        <div class="card" >
+            <img src="{{it.img}}" class="card-img-top" style="height: 450px; ">
+            <div class="card-body">
+                <h5 class="card-title">{{it.price}}</h5>
+                <p class="card-text">{{it.description}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- bodyend -->

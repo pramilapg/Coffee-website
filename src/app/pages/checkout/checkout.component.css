@@ -1,0 +1,15 @@
+#split-card{
+    margin:10px;
+    background-color:#BB8A89;
+  }
+  .checkout-left{
+    margin:30px;
+    margin-left:40px;
+}
+.order-summary{
+    display: flex;
+    float: right;
+    background-color: white;
+    margin:20px;
+    border-radius: 10px;
+}
